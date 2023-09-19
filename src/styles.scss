@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --background: #060b10;
+  --primary: #45d8b4;
+  --dark-text: rgba(12, 42, 42);
+  --text: #fff;
+  --secondary: #fb8500;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--background);
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,35 @@
+:host {
+  display: inline-block;
+
+  &.rounded {
+    button {
+      border-radius: 20px;
+    }
+  }
+
+  &.primary {
+    button {
+      background: var(--primary);
+    }
+  }
+
+  &.secondary {
+    button {
+      background: var(--secondary);
+    }
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
+
+button {
+  cursor: pointer;
+  padding: 12px 16px;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--white);
+}

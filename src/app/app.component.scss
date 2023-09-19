@@ -1,0 +1,12 @@
+.content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+}

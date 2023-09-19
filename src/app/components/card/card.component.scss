@@ -1,0 +1,23 @@
+:host {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  padding: 20px;
+
+  &.rounded {
+    border-radius: 20px;
+  }
+
+  &.primary {
+    border-color: var(--primary);
+  }
+
+  &.secondary {
+    border-color: var(--secondary);
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
